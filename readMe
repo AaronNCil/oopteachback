@@ -1,0 +1,22 @@
+The static, protected, and private keywords are used in 
+TypeScript to control the accessibility of properties and methods within a class.
+
+The static keyword is used to define a property or method that belongs to the 
+class rather than an instance of the class. This means that a static property or 
+method can be accessed without having to create an instance of the class first. 
+It is commonly used when a piece of functionality is needed but is not dependent on the state of an instance. 
+static members are used to provide utility methods and shared state across all the instances of a class.
+
+The protected keyword is used to restrict access to a property or method to the class that defines 
+it and any subclasses that inherit from it. 
+This means that a protected property or method can only be accessed within the class and its subclasses, 
+and not from outside the class hierarchy. This allows you to create a stable public API for a class, 
+while still allowing subclasses to make use of certain protected members.
+
+The private keyword is used to restrict access to a property or method to the class that defines it. 
+This means that a private property or method can only be accessed within the class, and not from outside the class or 
+any subclasses that inherit from it. This allows you to encapsulate implementation details and hide them from the outside world, 
+making your code more robust and less prone to errors.
+
+In general, the goal is to use the least restrictive accessibility possible that still allows for the correct functionality. 
+public should be the default for most members and then reduced based on the functionality needed.
