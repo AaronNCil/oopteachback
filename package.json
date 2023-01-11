@@ -1,0 +1,26 @@
+{
+  "name": "codealong-",
+  "version": "1.0.0",
+  "description": "The static, protected, and private keywords are used in  TypeScript to control the accessibility of properties and methods within a class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronNCil/oopteachback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronNCil/oopteachback/issues"
+  },
+  "homepage": "https://github.com/AaronNCil/oopteachback#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tsconfig.json": "^1.0.11"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

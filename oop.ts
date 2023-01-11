@@ -57,5 +57,5 @@ employee1.greet(); // Output: "Hello, my name is Jane Doe and I am 35 years old.
   
   let encapsulatedPerson = new EncapsulatedPerson("John Smith", 30);
   encapsulatedPerson.greet(); // Output: "Hello, my name is John Smith and I am 30 years old."
-  console.log(encapsulatedPerson); // Error: Property 'name' is private and only accessible within class 'EncapsulatedPerson'.
-  console.log(encapsulatedPerson); // Error: Property 'age' is private and only accessible within class 'EncapsulatedPerson'.
+  console.log(encapsulatedPerson.name); // Error: Property 'name' is private and only accessible within class 'EncapsulatedPerson'.
+  console.log(encapsulatedPerson.age); // Error: Property 'age' is private and only accessible within class 'EncapsulatedPerson'.

@@ -11,3 +11,4 @@ class Car extends Vehicle {
 }
 
 let car = new Car(); // Error:  Cannot create an instance of an abstract class.
+console.log(car.startEngine())
